@@ -10,7 +10,6 @@ finish-args:
   - --socket=wayland
   - --socket=pulseaudio
   - --socket=cups
-  - --persist=.praat-dir
   - --filesystem=home
 
 modules:
@@ -27,3 +26,5 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
+      - type: patch
+        path: update-metainfo.patch
