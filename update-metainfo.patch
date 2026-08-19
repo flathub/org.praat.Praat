@@ -1,31 +1,29 @@
-From bcbfabaeb8bcf3ece1399cd80164d19b4d3fb8a7 Mon Sep 17 00:00:00 2001
+From 4b0ac981e5a8d1686b24ebfb1961dac07149c370 Mon Sep 17 00:00:00 2001
 From: LinuxSBC <anna@simmons.ovh>
-Date: Wed, 5 Aug 2026 07:59:56 -0500
-Subject: [PATCH] Add release 7.0 to metainfo file
+Date: Wed, 19 Aug 2026 07:51:54 -0500
+Subject: [PATCH] Update metainfo file for new version
 
 ---
- org.praat.Praat.metainfo.xml | 11 +++++++++++
- 1 file changed, 11 insertions(+)
+ org.praat.Praat.metainfo.xml | 9 +++++++++
+ 1 file changed, 9 insertions(+)
 
 diff --git a/org.praat.Praat.metainfo.xml b/org.praat.Praat.metainfo.xml
-index db20195b1..ed4abaa5f 100644
+index ed4abaa5f..9b82717e3 100644
 --- a/org.praat.Praat.metainfo.xml
 +++ b/org.praat.Praat.metainfo.xml
-@@ -72,6 +72,17 @@ SPDX-License-Identifier: MIT
+@@ -72,6 +72,15 @@ SPDX-License-Identifier: MIT
    <content_rating type="oars-1.1" />
  
    <releases>
-+    <release version="7.0" date="2026-08-04">
-+      <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0</url>
++    <release version="7.0.01" date="2026-08-18">
++      <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0.01</url>
 +      <description>
 +        <ul>
-+          <li>Major version update, because of the following two breaking changes.</li>
-+          <li>Full-trust checking for scripts that attempt to write files or access system commands (this is a breaking change for automation).</li>
-+          <li>New location of settings file, buttons file and plug-ins on Mac, Windows and Linux, corresponding to how these platforms standardized such locations since 2007 (this is a breaking change for plug-in writers and users of the sendpraat subroutine).</li>
-+          <li>Flatpak distribution by Anna Simmons.</li>
++          <li>CPP.</li>
++          <li>Corpus: read CGN 2.0.3.</li>
 +        </ul>
 +      </description>
 +    </release>
-     <release version="6.6.30" date="2026-06-30">
-       <url type="details">https://github.com/praat/praat.github.io/releases/tag/v6.6.30</url>
+     <release version="7.0" date="2026-08-04">
+       <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0</url>
        <description>
