@@ -1,29 +1,30 @@
-From 4b0ac981e5a8d1686b24ebfb1961dac07149c370 Mon Sep 17 00:00:00 2001
+From b01bc97da8e470d4a9021e00324e647f338f652e Mon Sep 17 00:00:00 2001
 From: LinuxSBC <anna@simmons.ovh>
-Date: Wed, 19 Aug 2026 07:51:54 -0500
-Subject: [PATCH] Update metainfo file for new version
+Date: Fri, 28 Aug 2026 07:42:39 -0500
+Subject: [PATCH] Update metainfo to 7.0.02
 
 ---
- org.praat.Praat.metainfo.xml | 9 +++++++++
- 1 file changed, 9 insertions(+)
+ org.praat.Praat.metainfo.xml | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
 
 diff --git a/org.praat.Praat.metainfo.xml b/org.praat.Praat.metainfo.xml
-index ed4abaa5f..9b82717e3 100644
+index 9b82717e3..61438f4e4 100644
 --- a/org.praat.Praat.metainfo.xml
 +++ b/org.praat.Praat.metainfo.xml
-@@ -72,6 +72,15 @@ SPDX-License-Identifier: MIT
+@@ -72,6 +72,16 @@ SPDX-License-Identifier: MIT
    <content_rating type="oars-1.1" />
  
    <releases>
-+    <release version="7.0.01" date="2026-08-18">
-+      <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0.01</url>
++    <release version="7.0.02" date="2026-08-27">
++      <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0.02</url>
 +      <description>
 +        <ul>
-+          <li>CPP.</li>
-+          <li>Corpus: read CGN 2.0.3.</li>
++          <li>Corpus: extract TextGrid, Sound, speakers Table.</li>
++          <li>CGN Corpus: extract components, education regions.</li>
++          <li>Sound: To CPP...</li>
 +        </ul>
 +      </description>
 +    </release>
-     <release version="7.0" date="2026-08-04">
-       <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0</url>
+     <release version="7.0.01" date="2026-08-18">
+       <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0.01</url>
        <description>
