@@ -21,8 +21,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/praat/praat.github.io
-        commit: 4073a568270a40ef86f080079527f795ec7d257b
-        tag: v7.0.01
+        commit: 6f3da9ef1d8cce0d5684afc104d02888dfc71b25
+        tag: v7.0.02
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
