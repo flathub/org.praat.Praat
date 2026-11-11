@@ -1,30 +1,32 @@
-From b01bc97da8e470d4a9021e00324e647f338f652e Mon Sep 17 00:00:00 2001
+From 4adbe95b3cc8a291f583a6a7765273b384cf6853 Mon Sep 17 00:00:00 2001
 From: LinuxSBC <anna@simmons.ovh>
-Date: Fri, 28 Aug 2026 07:42:39 -0500
-Subject: [PATCH] Update metainfo to 7.0.02
+Date: Sat, 7 Nov 2026 20:42:46 -0600
+Subject: [PATCH] Update metainfo.xml to 7.0.03
 
 ---
- org.praat.Praat.metainfo.xml | 10 ++++++++++
- 1 file changed, 10 insertions(+)
+ org.praat.Praat.metainfo.xml | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
 
 diff --git a/org.praat.Praat.metainfo.xml b/org.praat.Praat.metainfo.xml
-index 9b82717e3..61438f4e4 100644
+index 61438f4e4..f3f5a5496 100644
 --- a/org.praat.Praat.metainfo.xml
 +++ b/org.praat.Praat.metainfo.xml
-@@ -72,6 +72,16 @@ SPDX-License-Identifier: MIT
+@@ -72,6 +72,18 @@ SPDX-License-Identifier: MIT
    <content_rating type="oars-1.1" />
  
    <releases>
-+    <release version="7.0.02" date="2026-08-27">
-+      <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0.02</url>
++    <release version="7.0.03" date="2026-11-08">
++      <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0.03</url>
 +      <description>
 +        <ul>
-+          <li>Corpus: extract TextGrid, Sound, speakers Table.</li>
-+          <li>CGN Corpus: extract components, education regions.</li>
-+          <li>Sound: To CPP...</li>
++          <li>Allow concurrent use of Praat 6 and Praat 7.</li>
++          <li>Prevent potential division by zero in **Sound: To Pitch...** (this could cause incomplete drawing in the Pitch window).</li>
++          <li>Windows: repaired a bug by which PNG files could show IPA symbols incorrectly if the IPA fonts were not available.</li>
++          <li>Made **Table: Line graph...** resistant against undefined values.</li>
++          <li>Corpus: read Kiel corpus files.</li>
 +        </ul>
 +      </description>
 +    </release>
-     <release version="7.0.01" date="2026-08-18">
-       <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0.01</url>
+     <release version="7.0.02" date="2026-08-27">
+       <url type="details">https://github.com/praat/praat.github.io/releases/tag/v7.0.02</url>
        <description>
